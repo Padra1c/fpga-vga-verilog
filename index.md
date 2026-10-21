@@ -13,7 +13,7 @@ I am adding a test sentence here at 14:55 on 21/10/26.
 ### **Project Set-Up**
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
+<img src="C:\Users\PadraicOLoughlin-STU\OneDrive - Atlantic TU\Pictures\Screenshots\Screenshot 2026-10-21 165317.png">
 ### **Template Code**
 We were given a stripes and colour cycle source code file with a VGA Top and TestBench file that showed colours of black, blue, green, cyan, red, purple, yellow and white. The VGA interface changes the digital image data with an analogue voltage system. 
 ### **Simulation**
