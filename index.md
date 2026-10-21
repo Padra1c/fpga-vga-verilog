@@ -15,7 +15,7 @@ Summarise the project set-up and design flow. Include a screenshot of your own s
 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
 ### **Template Code**
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+We were given a stripes and colour cycle source code file with a VGA Top and TestBench file that showed colours of black, blue, green, cyan, red, purple, yellow and white. The VGA interface changes the digital image data with an analogue voltage system. 
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 ### **Synthesis**
@@ -35,7 +35,7 @@ Describe the synthesis & implementation outputs for your design, are there any d
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
 ## **More Markdown Basics**
-This is a paragraph. Add an empty line to start a new paragraph.
+First I tested the board with a black and white striped screen
 
 Font can be emphasised as *Italic* or **Bold**.
 
