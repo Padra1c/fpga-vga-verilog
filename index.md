@@ -12,8 +12,7 @@ I am adding a test sentence here at 14:55 on 21/10/26.
 ## **Template VGA Design**
 ### **Project Set-Up**
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
-
-<img src="https://atlantictu-my.sharepoint.com/:i:/r/personal/g00468865_atu_ie/Documents/Pictures/Screenshots/Screenshot%202026-10-21%20165317.png?d=wa4c26a61de334f9080301e66f179c014&csf=1&web=1&e=oCqM2v">
+<img width="1135" height="634" alt="Screenshot 2026-10-21 155532" src="https://github.com/user-attachments/assets/9941760d-042f-45c6-9435-bc8d9aeaa22f" />
 ### **Template Code**
 We were given a stripes and colour cycle source code file with a VGA Top and TestBench file that showed colours of black, blue, green, cyan, red, purple, yellow and white. The VGA interface changes the digital image data with an analogue voltage system. 
 ### **Simulation**
