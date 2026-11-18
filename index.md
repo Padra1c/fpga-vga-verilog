@@ -14,6 +14,8 @@ I am adding a test sentence here at 14:55 on 21/10/26.
 Each Student was given a template folder that included the Basys3_Master constraints file, and testbench, ColourStripes VGA synch and VGA top files. Using the template ColourStripes file, students could edit the code to include static or dynamic images. To test this, the Testbench file simulates the inputs and outputs and tests them before sending the data to the FPGA, the VGA Sync file handles the timing of the image to the screen, and the ColourStripes file handles the design of what is displayed to the screen.
 
 <img width="865" height="660" alt="Screenshot 2026-11-18 154250" src="https://github.com/user-attachments/assets/5535c337-37ea-4286-a66b-bf0a3314e721" />
+
+
 ### **Template Code**
 We were given a stripes and colour cycle source code file with a VGA Top and TestBench file that showed colours of black, blue, green, cyan, red, purple, yellow and white. The VGA interface changes the digital image data with an analogue voltage system. 
 ### **Simulation**
