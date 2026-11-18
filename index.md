@@ -5,14 +5,14 @@ tags: fpga vga verilog
 categories: demo
 ---
 
-In this SoC Project, we will develop and display custom graphics on a 640x480 display
+In this SoC Project, with help from labs and lectures we developed and displayed custom graphics on a 640x480 display
 
 I am adding a test sentence here at 14:55 on 21/10/26.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
-<img width="1135" height="634" alt="Screenshot 2026-10-21 155532" src="https://github.com/user-attachments/assets/9941760d-042f-45c6-9435-bc8d9aeaa22f" />
+Each Student was given a template folder that included the Basys3_Master constraints file, and testbench, ColourStripes VGA synch and VGA top files. Using the template ColourStripes file, students could edit the code to include static or dynamic images. To test this, the Testbench file simulates the inputs and outputs and tests them before sending the data to the FPGA, the VGA Sync file handles the timing of the image to the screen, and the ColourStripes file handles the design of what is displayed to the screen.
+<img width="865" height="660" alt="Screenshot 2026-11-18 154250" src="https://github.com/user-attachments/assets/5535c337-37ea-4286-a66b-bf0a3314e721" />
 ### **Template Code**
 We were given a stripes and colour cycle source code file with a VGA Top and TestBench file that showed colours of black, blue, green, cyan, red, purple, yellow and white. The VGA interface changes the digital image data with an analogue voltage system. 
 ### **Simulation**
