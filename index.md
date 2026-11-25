@@ -17,8 +17,10 @@ Each Student was given a template folder that included the Basys3_Master constra
 
 ### **Template Code**
 We were given a stripes and colour cycle source code file with a VGA Top and TestBench file that showed colours of black, blue, green, cyan, red, purple, yellow and white. The VGA interface changes the digital image data with an analogue voltage system. 
+
 ### **Simulation**
 To simulate the project, we're using vivado. We write a design to the ColourStripes module which drives the module inputs using a TestBench file. This testbench generates a clock, and feed values on both sides of the bar, creating the picture. 
+
 ### **Synthesis**
 The synthesize process turns the verilog code into logic that the hardware can understand. Then it is implemented onto the Artix-7 chip. Functions such as "always @*" map to logic by becoming combinational gates that map to lookup tables. Implementation further cleans up code, and connects the design using the chips wiring using flip-flops.
 
@@ -31,13 +33,13 @@ My VGA Design was to display a static image of he Swedish flag, I believed this 
 In the above image, I changed the code to match my desired output. Firstly, the state logic altered the entire background of the image. The way it functioned was that the "if" statement checks if the current row or column pixel in either the horizontal or vertical section is between a set value, and if it was, that pixel was to be coloured yellow, then an "else" statement runs and fills the rest of the pixels with blue, creating the blue background.
 
 ### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+In my simulation, the code is wrapped in a testbench file, same as the template, which drives clk and rst, feeding in row and col values, and watching how red, green, and blue respond over simulated time. The "always @*" function is used whenever row or col changes, Vivado immediately re-evaluates the Swedish crosses condition.
 
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 
 ### **Demonstration**
-<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/20261118_162919396_iOS.heic">
+<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/blob/main/docs/assets/images/20261118_162919396_iOS.png">
 
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
