@@ -24,14 +24,21 @@ The synthesize process turns the verilog code into logic that the hardware can u
 
 ## **My VGA Design Edit**
 My VGA Design was to display a static image of he Swedish flag, I believed this to be a simple task, but I was unsure of how to display different coloured pixels that overlap in a cross-section. The template code provided had stripes that almost worked as vertical stripes, but none overlapped each other. I believed this feature to be difficult to implement into this project.  
+
 ### **Code Adaptation**
 <img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/Screenshot%202026-11-25%20161636.png">
+
 In the above image, I changed the code to match my desired output. Firstly, the state logic altered the entire background of the image. The way it functioned was that the "if" statement checks if the current row or column pixel in either the horizontal or vertical section is between a set value, and if it was, that pixel was to be coloured yellow, then an "else" statement runs and fills the rest of the pixels with blue, creating the blue background.
+
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
+
 ### **Demonstration**
+<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/20261118_162919396_iOS.heic">
+
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
 ## **More Markdown Basics**
