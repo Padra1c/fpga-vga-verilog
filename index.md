@@ -57,4 +57,4 @@ Images can be added by uploading them to the repository in a /docs/assets/images
 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
 
-<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/blob/main/docs/assets/images/Screenshot%202026-11-25%20161636.png">
+<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/Screenshot%202026-11-25%20161636.png">
