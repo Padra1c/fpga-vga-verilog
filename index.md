@@ -13,7 +13,7 @@ I am adding a test sentence here at 14:55 on 21/10/26.
 ### **Project Set-Up**
 Each Student was given a template folder that included the Basys3_Master constraints file, and testbench, ColourStripes VGA synch and VGA top files. Using the template ColourStripes file, students could edit the code to include static or dynamic images. To test this, the Testbench file simulates the inputs and outputs and tests them before sending the data to the FPGA, the VGA Sync file handles the timing of the image to the screen, and the ColourStripes file handles the design of what is displayed to the screen.
 
-<img width="865" height="660" alt="Screenshot 2026-11-18 154250" src="https://github.com/user-attachments/assets/5535c337-37ea-4286-a66b-bf0a3314e721" />
+<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/Screenshot%202026-11-25%20161636.png">
 
 
 ### **Template Code**
@@ -56,5 +56,3 @@ A bullet list can be rendered as follows:
 Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
-
-<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/Screenshot%202026-11-25%20161636.png">
