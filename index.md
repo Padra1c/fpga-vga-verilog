@@ -26,7 +26,7 @@ The synthesize process turns the verilog code into logic that the hardware can u
 My VGA Design was to display a static image of he Swedish flag, I believed this to be a simple task, but I was unsure of how to display different coloured pixels that overlap in a cross-section. The template code provided had stripes that almost worked as vertical stripes, but none overlapped each other. I believed this feature to be difficult to implement into this project.  
 ### **Code Adaptation**
 
-<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/Screenshot%202026-11-18%20154250.png">
+<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/Screenshot%202026-11-25%20161636.png">
 
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
