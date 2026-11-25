@@ -36,12 +36,12 @@ In the above image, I changed the code to match my desired output. Firstly, the 
 In my simulation, the code is wrapped in a testbench file, same as the template, which drives clk and rst, feeding in row and col values, and watching how red, green, and blue respond over simulated time. The "always @*" function is used whenever row or col changes, Vivado immediately re-evaluates the Swedish crosses condition.
 
 ### **Synthesis**
-<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/blob/main/docs/assets/images/Screenshot%202026-11-25%20154744.png">
+<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/Screenshot%202026-11-25%20154744.png">
 
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 
 ### **Demonstration**
-<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/blob/main/docs/assets/images/20261118_162919396_iOS.png">
+<img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/20261118_162919396_iOS.png">
 
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
