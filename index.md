@@ -38,12 +38,12 @@ In my simulation, the code is wrapped in a testbench file, same as the template,
 ### **Synthesis**
 <img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/Screenshot%202026-11-25%20154744.png">
 
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
+The image above shows the use of flip-flops and gates to display the image. The logic builds two comparator pairs—col between 200 and 280, and row between 192 and 288. The outputs feed into an AND gate and both AND outputs feed a single RTL_OR gate, so pixels in either bar form the yellow cross.
 
 ### **Demonstration**
 <img src="https://raw.githubusercontent.com/Padra1c/fpga-vga-verilog/main/docs/assets/images/20261118_162919396_iOS.png">
 
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+This is the output of my design working on the Basys3 board. It displays the static image from the VGA
 
-## **More Markdown Basics**
+# **More Markdown Basics**
 First I tested the board with a black and white striped screen to troubleshoot problems I had encountered, before moving on to the flag design.
